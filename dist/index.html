@@ -17,12 +17,12 @@
     button{font:inherit} .app{max-width:430px;min-height:100vh;margin:auto;background:rgba(255,255,255,.78);box-shadow:0 0 60px rgba(74,37,64,.08);position:relative;padding:20px 18px 108px;overflow:hidden}
     header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}.brand{display:flex;align-items:center;gap:9px;font-family:Fraunces,serif;font-weight:700;font-size:1.55rem}.mark{width:35px;height:35px;border-radius:12px;background:var(--pink);display:grid;place-items:center;color:white;box-shadow:0 8px 20px rgba(246,95,127,.26)}
     .icon-btn{width:42px;height:42px;border:1px solid var(--line);border-radius:15px;background:white;display:grid;place-items:center;color:var(--plum);cursor:pointer}.eyebrow{font-size:.76rem;color:var(--pink);font-weight:700;letter-spacing:.11em;text-transform:uppercase;margin:0 0 4px}.heading-row{display:flex;align-items:end;justify-content:space-between;margin-bottom:14px}h1{font:700 2rem/1.05 Fraunces,serif;margin:0}.location{font-size:.82rem;color:var(--muted);font-weight:600}
-    .pet-card{height:570px;border-radius:30px;position:relative;overflow:hidden;background:#fff;box-shadow:var(--shadow);isolation:isolate;touch-action:pan-y;transition:transform .28s ease,opacity .28s ease;border:1px solid rgba(238,223,232,.8)}.pet-card.swipe-left{transform:translateX(-120%) rotate(-15deg);opacity:0}.pet-card.swipe-right{transform:translateX(120%) rotate(15deg);opacity:0}.pet-photo{height:330px;background:#a56c75 url('assets/luna-golden-retriever.webp') center 38%/cover no-repeat;position:relative}.pet-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(43,32,48,.18),transparent 35%)}
+    .pet-card{height:570px;border-radius:30px;position:relative;overflow:hidden;background:#fff;box-shadow:var(--shadow);isolation:isolate;touch-action:pan-y;transition:transform .28s ease,opacity .28s ease;border:1px solid rgba(238,223,232,.8)}.pet-card.swipe-left{transform:translateX(-120%) rotate(-15deg);opacity:0}.pet-card.swipe-right{transform:translateX(120%) rotate(15deg);opacity:0}.pet-photo{height:330px;background:#a56c75 url('assets/luna-golden-retriever.webp') center 4%/cover no-repeat;position:relative}.pet-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(43,32,48,.18),transparent 35%)}
     .card-tools{position:absolute;top:18px;left:18px;right:18px;z-index:2;display:flex;justify-content:space-between}.pill{padding:8px 12px;border-radius:999px;background:rgba(37,23,34,.35);backdrop-filter:blur(10px);color:#fff;font-size:.76rem;font-weight:700;border:1px solid rgba(255,255,255,.25)}
     .card-copy{position:relative;z-index:2;padding:25px 22px 20px;color:var(--ink)}.name-line{display:flex;align-items:center;gap:9px}.name-line h2{font:700 1.8rem/1 Fraunces,serif;margin:0}.verified{width:21px;height:21px;background:#56c9af;border-radius:50%;display:grid;place-items:center;font-size:.75rem}.meta{margin:7px 0 13px;color:var(--muted)}.traits{display:flex;gap:7px;flex-wrap:wrap}.trait{padding:7px 10px;border-radius:10px;background:#fff0f4;color:#9c3e5b;font-size:.75rem;font-weight:700}.chemistry{display:flex;align-items:center;gap:12px;margin-top:15px;padding-top:13px;border-top:1px dashed #e8d4e0}.chemistry-ring{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--pink) 0 92%,#f3e5ed 92%);position:relative;font-size:.72rem;font-weight:800;color:var(--plum)}.chemistry-ring:before{content:"";position:absolute;inset:5px;border-radius:50%;background:#fff}.chemistry-ring span{position:relative}.chemistry-copy b{display:block;font-size:.82rem}.chemistry-copy small{color:var(--muted);font-size:.7rem}.passport-stamp{position:absolute;z-index:3;right:18px;top:300px;transform:rotate(6deg);background:#fff;color:var(--plum);border:2px solid var(--rose);border-radius:13px;padding:8px 10px;font:700 .68rem/1.1 Fraunces,serif;text-align:center;box-shadow:0 5px 15px rgba(69,37,61,.12);text-transform:uppercase;letter-spacing:.07em}
     .actions{display:grid;grid-template-columns:1fr auto 1.4fr;align-items:center;gap:9px;margin-top:15px}.action{height:50px;border:1px solid var(--line);border-radius:16px;background:#fff;cursor:pointer;display:flex;gap:7px;align-items:center;justify-content:center;font-size:.77rem;font-weight:700;color:var(--plum);transition:.18s transform}.action:hover{transform:translateY(-2px)}.action.save{width:50px;font-size:1.2rem}.action.like{background:var(--pink);color:#fff;border-color:var(--pink);font-size:.8rem}.action:active{transform:scale(.97)}
     nav{position:fixed;z-index:10;bottom:14px;left:50%;transform:translateX(-50%);width:min(394px,calc(100% - 28px));height:76px;border:1px solid rgba(232,214,225,.9);border-radius:25px;background:rgba(255,255,255,.9);backdrop-filter:blur(18px);display:flex;align-items:center;justify-content:space-around;box-shadow:0 12px 35px rgba(74,37,64,.13)}.nav-item{border:0;background:transparent;color:#a192a2;display:grid;gap:4px;place-items:center;font-size:.69rem;font-weight:700;cursor:pointer}.nav-item span{font-size:1.25rem}.nav-item.active{color:var(--pink)}
-    .view{display:none}.view.active{display:block;animation:fade .22s ease}.screen-title{font:700 2rem/1.1 Fraunces,serif;margin:2px 0 8px}.screen-sub{color:var(--muted);margin:0 0 22px;line-height:1.5}.section-title{font:700 1.25rem Fraunces,serif;margin:26px 0 12px}.match-strip{display:flex;gap:14px;overflow:auto;padding:3px 1px 9px;scrollbar-width:none}.match{min-width:76px;text-align:center;font-size:.76rem;font-weight:700}.avatar{width:70px;height:70px;border:3px solid #fff;outline:2px solid var(--rose);border-radius:24px;display:grid;place-items:center;font-size:2rem;background:linear-gradient(145deg,#ffe3eb,#e5d7f6);margin-bottom:7px}.message-card,.care-card,.record-card,.profile-panel{border:1px solid var(--line);background:#fff;border-radius:22px;padding:16px;box-shadow:0 8px 24px rgba(80,40,68,.07)}.message-card{display:flex;gap:13px;align-items:center;margin-bottom:10px}.message-card .avatar{width:52px;height:52px;border:0;outline:0;border-radius:17px;margin:0;font-size:1.5rem}.grow{flex:1}.row{display:flex;align-items:center;justify-content:space-between;gap:10px}.message-card h3,.care-card h3,.record-card h3{margin:0 0 3px;font-size:.95rem}.small{font-size:.78rem;color:var(--muted);margin:0;line-height:1.4}.badge{font-size:.69rem;font-weight:700;padding:6px 8px;background:#fff0f4;color:#c94565;border-radius:999px}.care-hero{background:linear-gradient(145deg,#713f69,#9a5b86);border-radius:26px;padding:22px;color:#fff;position:relative;overflow:hidden}.care-hero:after{content:'✚';position:absolute;right:-10px;bottom:-34px;font-size:8rem;opacity:.1}.care-hero h2{font:700 1.55rem Fraunces,serif;margin:7px 0}.search{width:100%;margin-top:15px;border:0;border-radius:14px;padding:13px 15px;font:inherit;color:var(--ink)}.care-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:13px}.care-card{padding:15px}.care-icon{width:42px;height:42px;border-radius:14px;background:#fff0f4;display:grid;place-items:center;font-size:1.2rem;margin-bottom:18px}.clinic{display:flex;gap:12px;align-items:center}.clinic-logo{width:50px;height:50px;border-radius:16px;background:#f1e8f4;color:var(--plum);display:grid;place-items:center;font-weight:800}.rating{color:#d99519;font-size:.77rem;font-weight:700}.record-card{margin-top:11px}.progress{height:7px;background:#f2e8ef;border-radius:99px;overflow:hidden;margin-top:12px}.progress i{display:block;width:75%;height:100%;background:linear-gradient(90deg,var(--pink),#ffad83);border-radius:99px}.profile-cover{height:200px;margin:-2px -2px 0;border-radius:27px 27px 20px 20px;background:url('assets/luna-golden-retriever.webp') center 38%/cover}.profile-panel{text-align:center;padding:0 18px 20px}.profile-avatar{width:84px;height:84px;border-radius:28px;border:5px solid white;background:url('assets/luna-golden-retriever-thumb.webp') center/cover;margin:-43px auto 10px;position:relative}.profile-panel h2{font:700 1.6rem Fraunces,serif;margin:0}.stats{display:grid;grid-template-columns:repeat(3,1fr);margin:19px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.stat{padding:13px 4px}.stat+ .stat{border-left:1px solid var(--line)}.stat b{display:block;font-size:.95rem}.stat span{font-size:.7rem;color:var(--muted)}.primary-btn{width:100%;border:0;border-radius:15px;background:var(--pink);color:#fff;padding:14px;font-weight:700;cursor:pointer}.notice{background:#fff7df;color:#705914;padding:13px 14px;border-radius:16px;font-size:.79rem;line-height:1.45;margin-top:13px;text-align:left}.empty-state{text-align:center;padding:28px 18px;color:var(--muted)}
+    .view{display:none}.view.active{display:block;animation:fade .22s ease}.screen-title{font:700 2rem/1.1 Fraunces,serif;margin:2px 0 8px}.screen-sub{color:var(--muted);margin:0 0 22px;line-height:1.5}.section-title{font:700 1.25rem Fraunces,serif;margin:26px 0 12px}.match-strip{display:flex;gap:14px;overflow:auto;padding:3px 1px 9px;scrollbar-width:none}.match{min-width:76px;text-align:center;font-size:.76rem;font-weight:700}.avatar{width:70px;height:70px;border:3px solid #fff;outline:2px solid var(--rose);border-radius:24px;display:grid;place-items:center;font-size:2rem;background:linear-gradient(145deg,#ffe3eb,#e5d7f6);margin-bottom:7px}.message-card,.care-card,.record-card,.profile-panel{border:1px solid var(--line);background:#fff;border-radius:22px;padding:16px;box-shadow:0 8px 24px rgba(80,40,68,.07)}.message-card{display:flex;gap:13px;align-items:center;margin-bottom:10px}.message-card .avatar{width:52px;height:52px;border:0;outline:0;border-radius:17px;margin:0;font-size:1.5rem}.grow{flex:1}.row{display:flex;align-items:center;justify-content:space-between;gap:10px}.message-card h3,.care-card h3,.record-card h3{margin:0 0 3px;font-size:.95rem}.small{font-size:.78rem;color:var(--muted);margin:0;line-height:1.4}.badge{font-size:.69rem;font-weight:700;padding:6px 8px;background:#fff0f4;color:#c94565;border-radius:999px}.care-hero{background:linear-gradient(145deg,#713f69,#9a5b86);border-radius:26px;padding:22px;color:#fff;position:relative;overflow:hidden}.care-hero:after{content:'✚';position:absolute;right:-10px;bottom:-34px;font-size:8rem;opacity:.1}.care-hero h2{font:700 1.55rem Fraunces,serif;margin:7px 0}.search{width:100%;margin-top:15px;border:0;border-radius:14px;padding:13px 15px;font:inherit;color:var(--ink)}.care-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:13px}.care-card{padding:15px}.care-icon{width:42px;height:42px;border-radius:14px;background:#fff0f4;display:grid;place-items:center;font-size:1.2rem;margin-bottom:18px}.clinic{display:flex;gap:12px;align-items:center}.clinic-logo{width:50px;height:50px;border-radius:16px;background:#f1e8f4;color:var(--plum);display:grid;place-items:center;font-weight:800}.rating{color:#d99519;font-size:.77rem;font-weight:700}.record-card{margin-top:11px}.progress{height:7px;background:#f2e8ef;border-radius:99px;overflow:hidden;margin-top:12px}.progress i{display:block;width:75%;height:100%;background:linear-gradient(90deg,var(--pink),#ffad83);border-radius:99px}.profile-cover{height:200px;margin:-2px -2px 0;border-radius:27px 27px 20px 20px;background:url('assets/luna-golden-retriever.webp') center 4%/cover}.profile-panel{text-align:center;padding:0 18px 20px}.profile-avatar{width:84px;height:84px;border-radius:28px;border:5px solid white;background:url('assets/luna-golden-retriever-thumb.webp') center/cover;margin:-43px auto 10px;position:relative}.profile-panel h2{font:700 1.6rem Fraunces,serif;margin:0}.stats{display:grid;grid-template-columns:repeat(3,1fr);margin:19px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.stat{padding:13px 4px}.stat+ .stat{border-left:1px solid var(--line)}.stat b{display:block;font-size:.95rem}.stat span{font-size:.7rem;color:var(--muted)}.primary-btn{width:100%;border:0;border-radius:15px;background:var(--pink);color:#fff;padding:14px;font-weight:700;cursor:pointer}.notice{background:#fff7df;color:#705914;padding:13px 14px;border-radius:16px;font-size:.79rem;line-height:1.45;margin-top:13px;text-align:left}.empty-state{text-align:center;padding:28px 18px;color:var(--muted)}
     .toast{position:fixed;z-index:20;top:22px;left:50%;transform:translate(-50%,-90px);background:var(--ink);color:#fff;padding:12px 18px;border-radius:999px;font-size:.86rem;font-weight:600;transition:.3s;box-shadow:var(--shadow)}.toast.show{transform:translate(-50%,0)}
     .demo-owner{font-size:.72rem;font-weight:800;background:linear-gradient(145deg,#fff0f4,#f4e9ff);color:var(--plum)}.photo-avatar{background-position:center!important;background-size:cover!important}.owner-account{display:flex;align-items:center;gap:12px;background:linear-gradient(135deg,#6f3e69,#9b5d87);color:#fff;padding:15px;border-radius:22px;margin-bottom:14px;box-shadow:var(--shadow)}.owner-initials{width:48px;height:48px;border-radius:16px;background:#fff;color:var(--plum);display:grid;place-items:center;font-weight:800}.owner-account h3{margin:0 0 2px}.owner-account .small{color:#f0dfe9}.owner-account .badge{margin-left:auto;background:rgba(255,255,255,.16);color:#fff}.match-modal{position:fixed;z-index:40;inset:0;background:rgba(43,32,48,.52);backdrop-filter:blur(9px);display:grid;place-items:center;padding:20px}.match-dialog{width:min(360px,100%);background:#fff;border-radius:30px;padding:27px;text-align:center;box-shadow:0 25px 70px rgba(43,32,48,.3)}.match-dogs{display:flex;justify-content:center;margin-bottom:16px}.match-dogs .profile-avatar{margin:0 -8px;width:82px;height:82px}.match-dogs .profile-avatar:last-child{background-image:url('assets/luna-golden-retriever.webp');transform:rotate(5deg)}.match-dialog h2{font:700 1.8rem Fraunces,serif;margin:0 0 7px}.match-dialog p{color:var(--muted);line-height:1.45}.secondary-btn{width:100%;border:0;background:transparent;color:var(--plum);padding:12px;font-weight:700;cursor:pointer}[hidden]{display:none!important}.care-card{font:inherit;color:var(--ink);text-align:left;cursor:pointer}.care-card:hover{border-color:#e8b9ce;transform:translateY(-2px)}.care-card.report{background:linear-gradient(145deg,#fff4f1,#fff);border-color:#ffc9ba}.care-card.report .care-icon{background:#ffe1d8;color:#b84836}.shelter-card{border-left:4px solid #ff9f72}.report-status{margin-top:11px;border:1px solid #bfe6d8;background:#effbf7;border-radius:18px;padding:14px;color:#276b59}.report-status b{display:block;margin-bottom:3px}.report-sheet{width:min(390px,100%);max-height:min(720px,92vh);overflow:auto;background:#fff;border-radius:30px;padding:24px;box-shadow:0 25px 70px rgba(43,32,48,.3);text-align:left}.report-sheet h2{font:700 1.65rem Fraunces,serif;margin:5px 0}.report-sheet label{display:block;font-size:.78rem;font-weight:700;margin:14px 0 6px}.field{width:100%;border:1px solid var(--line);border-radius:13px;background:#fffafd;color:var(--ink);padding:12px;font:inherit}.photo-drop{width:100%;border:1px dashed #d9b7ca;border-radius:14px;background:#fff7fb;color:var(--plum);padding:17px;font-weight:700;cursor:pointer}.demo-warning{font-size:.72rem;color:#8a6535;background:#fff7df;border-radius:12px;padding:10px;margin:12px 0}.modal-close{float:right;border:0;background:#f6edf3;width:34px;height:34px;border-radius:11px;color:var(--plum);font-weight:800;cursor:pointer}.adoption-entry{grid-column:1/-1;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;background:linear-gradient(135deg,#6f3e69,#a75e82);color:#fff;border:0}.adoption-entry .care-icon{margin:0;background:rgba(255,255,255,.18);color:#fff}.adoption-entry h3{margin:0 0 3px}.adoption-entry .small{color:#f6e7ef}.adopt-arrow{font-size:1.35rem}.adoption-head{display:flex;align-items:end;justify-content:space-between;gap:10px;margin:26px 0 12px}.adoption-head .section-title{margin:0}.filter-chips{display:flex;gap:5px}.filter-chip{border:1px solid var(--line);background:#fff;color:var(--muted);padding:6px 9px;border-radius:999px;font-size:.69rem;font-weight:700;cursor:pointer}.filter-chip.active{background:var(--plum);border-color:var(--plum);color:#fff}.adoption-list{display:grid;gap:12px}.adopt-card{display:grid;grid-template-columns:108px 1fr;min-height:148px;background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 8px 24px rgba(80,40,68,.07)}.adopt-photo{background-position:center;background-size:cover}.adopt-copy{padding:14px 13px}.adopt-copy h3{font:700 1.12rem Fraunces,serif;margin:0 0 3px}.adopt-meta{font-size:.73rem;color:var(--muted);line-height:1.35;margin:0 0 9px}.adopt-tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px}.adopt-tag{font-size:.65rem;font-weight:700;color:#9c3e5b;background:#fff0f4;border-radius:999px;padding:5px 7px}.adopt-btn{border:0;background:transparent;color:var(--pink);font-weight:800;font-size:.74rem;padding:0;cursor:pointer}.adopt-btn.sent{color:#29735f}.adoption-pet-photo{width:110px;height:110px;border-radius:28px;margin:0 auto 15px;background-position:center;background-size:cover}.adoption-note{margin-top:13px;padding:11px;border-radius:13px;background:#fff7df;color:#765d23;font-size:.72rem;line-height:1.4}
     .service-directory{margin-top:18px}.directory-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}.directory-head h2{font:700 1.35rem Fraunces,serif;margin:0}.directory-close{border:0;background:#f6edf3;color:var(--plum);width:34px;height:34px;border-radius:11px;cursor:pointer;font-weight:800}.service-list{display:grid;gap:10px}.service-item{background:#fff;border:1px solid var(--line);border-radius:20px;padding:14px;display:grid;grid-template-columns:46px 1fr auto;align-items:center;gap:11px;box-shadow:0 7px 20px rgba(80,40,68,.06)}.service-symbol{width:46px;height:46px;border-radius:15px;background:#f4eaf5;color:var(--plum);display:grid;place-items:center;font-weight:800}.service-item h3{font-size:.9rem;margin:0 0 3px}.service-item p{font-size:.72rem;color:var(--muted);margin:0;line-height:1.35}.mini-btn{border:0;background:#fff0f4;color:#bd4764;border-radius:999px;padding:7px 9px;font-weight:700;font-size:.68rem;cursor:pointer}.care-card.emergency{background:linear-gradient(145deg,#fff1f1,#fff);border-color:#f4c0c0}.care-card.emergency .care-icon{background:#ffe0e0;color:#bc3838}.urgent-banner{background:#fff0f0;color:#913535;border:1px solid #f4caca;border-radius:14px;padding:11px;font-size:.76rem;line-height:1.4;margin:12px 0}.emergency-call{display:block;text-align:center;text-decoration:none;background:#c83e4b;color:#fff;padding:14px;border-radius:15px;font-weight:800;margin:12px 0}.camera-label{display:block!important;text-align:center;border:1px dashed #d9b7ca;border-radius:14px;background:#fff7fb;color:var(--plum);padding:15px;font-weight:700;cursor:pointer;margin:8px 0!important}.photo-state{font-size:.7rem;color:var(--muted);text-align:center;margin:0}.health-record{margin-top:14px;text-align:left}.health-record h2{font:700 1.35rem Fraunces,serif;margin:0}.health-list{display:grid;gap:9px;margin-top:14px}.health-row{display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:10px;padding:10px 0;border-top:1px solid var(--line)}.health-check{width:32px;height:32px;border-radius:11px;background:#e7f8f2;color:#28715d;display:grid;place-items:center;font-weight:800}.health-row h3{font-size:.82rem;margin:0 0 2px}.health-row p{font-size:.7rem;color:var(--muted);margin:0}.health-status{font-size:.68rem;font-weight:700;color:#28715d}.health-status.due{color:#bd4764}.health-link{border:0;background:#fff0f4;color:#bd4764;padding:9px 12px;border-radius:12px;font-size:.74rem;font-weight:700;cursor:pointer;margin-top:12px}
@@ -72,7 +72,6 @@
     .pill{background:rgba(26,14,28,.52);backdrop-filter:blur(10px);
       border:1px solid rgba(255,255,255,.22);color:#fff;box-shadow:0 6px 18px rgba(0,0,0,.18)}
     .passport-stamp{box-shadow:0 10px 26px rgba(74,37,64,.14);border-color:rgba(201,162,39,.45)}
-    .trait{background:linear-gradient(145deg,#fff2f6,#ffe8f0);border:1px solid rgba(246,95,127,.16)}
     .verified{box-shadow:0 4px 12px rgba(86,201,175,.4)}
 
     /* buttons: real press feedback */
@@ -125,6 +124,41 @@
     .progress i{box-shadow:0 0 12px rgba(246,95,127,.5)}
 
     .search-empty{margin:16px 2px;color:var(--muted);font-size:.82rem;text-align:center}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+      clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+    /* ---- demo chat ------------------------------------------------------ */
+    .message-card{width:100%;border:0;background:transparent;text-align:left;cursor:pointer;font:inherit;
+      align-items:center}
+    .message-card:hover{background:rgba(255,255,255,.85)}
+    .chat-sheet{width:min(400px,100%);height:min(640px,88vh);display:flex;flex-direction:column;
+      background:#fff;border-radius:28px;overflow:hidden;box-shadow:0 30px 90px rgba(43,32,48,.34);
+      border:1px solid rgba(255,255,255,.7)}
+    .chat-head{display:flex;align-items:center;gap:11px;padding:14px 14px 12px;
+      border-bottom:1px solid var(--line);background:linear-gradient(145deg,#fffdfa,#fdf4f8)}
+    .chat-head h2{margin:0;font:700 1rem/1.2 Fraunces,serif}
+    .chat-head .small{margin:2px 0 0}
+    .chat-head .modal-close{position:static;flex:none}
+    .chat-avatar{width:44px;height:44px;border-radius:15px;border:0;outline:0;margin:0;flex:none}
+    .chat-log{flex:1;overflow-y:auto;padding:16px 14px;display:flex;flex-direction:column;gap:9px;
+      background:radial-gradient(600px 300px at 50% 0%,#fff6fa,transparent),#fffdfe;
+      -webkit-overflow-scrolling:touch}
+    .bubble-row{display:flex}
+    .bubble-row.mine{justify-content:flex-end}
+    .bubble{max-width:78%;padding:10px 13px 16px;border-radius:19px;font-size:.82rem;line-height:1.45;
+      position:relative;box-shadow:0 4px 12px rgba(74,37,64,.07)}
+    .bubble-row.theirs .bubble{background:#fff;border:1px solid var(--line);border-bottom-left-radius:7px}
+    .bubble-row.mine .bubble{background:linear-gradient(135deg,#ff7d9b,var(--pink));color:#fff;
+      border-bottom-right-radius:7px;box-shadow:0 8px 20px rgba(246,95,127,.28)}
+    .bubble-time{position:absolute;right:11px;bottom:4px;font-size:.58rem;font-weight:700;opacity:.62}
+    .chat-warning{margin:0;padding:8px 14px;font-size:.64rem;text-align:center;color:#8a6d16;
+      background:#fff7df;border-top:1px solid var(--line)}
+    .chat-compose{display:flex;gap:8px;padding:11px 12px;border-top:1px solid var(--line);background:#fff}
+    .chat-compose .field{flex:1;border-radius:999px;margin:0}
+    .chat-send{flex:none;width:46px;height:46px;border:0;border-radius:50%;cursor:pointer;color:#fff;
+      background:linear-gradient(135deg,#ff7d9b,var(--pink));box-shadow:0 8px 20px rgba(246,95,127,.32);
+      font-size:1rem;transition:transform .2s var(--ease)}
+    .chat-send:active{transform:scale(.93)}
 
     /* ---- phone / iOS layer ---------------------------------------------
        Anchor the stamp to the photo (it used to sit at a hard-coded top:300px
@@ -168,7 +202,6 @@
       .adopt-copy{padding:12px 11px}
       .facts{gap:4px}
       .fact{font-size:.63rem;padding:3px 7px}
-      .trait{font-size:.7rem;padding:6px 8px}
       .care-grid{gap:10px}
       nav{height:70px}
       .app{padding-bottom:calc(100px + env(safe-area-inset-bottom,0px))}
@@ -184,16 +217,14 @@
        so trade card ornament for height. Real iOS Safari also eats ~60-90px of
        chrome that emulation does not, hence the conservative budgets. */
     @media(max-height:850px){
-      .pet-photo{height:min(226px,26vh);background-position:center 31%}
+      .pet-photo{height:min(248px,29vh);background-position:center 33%}
       .pet-bio{-webkit-line-clamp:1;min-height:0;margin-top:5px}
       .chemistry{margin-top:9px;padding-top:9px}
       .card-copy{padding:22px 18px 14px}
       header{margin-bottom:12px}
     }
     @media(max-height:760px){
-      .pet-photo{height:min(196px,24vh);background-position:center 26%}
-      /* traits duplicate what the facts strip already says */
-      .traits{display:none}
+      .pet-photo{height:min(224px,27vh);background-position:center 28%}
       .facts{margin-top:7px}
       .fact{font-size:.62rem;padding:3px 7px}
       .chemistry{margin-top:8px;padding-top:8px}
@@ -202,7 +233,7 @@
       h1,.screen-title{font-size:1.62rem}
     }
     @media(max-height:680px){
-      .pet-photo{height:min(168px,22vh);background-position:center 22%}
+      .pet-photo{height:min(190px,25vh);background-position:center 24%}
       .pet-bio{display:none}
       .card-copy{padding:20px 16px 12px}
       .actions{margin-top:11px}
@@ -210,7 +241,7 @@
     /* Landscape phones: the deck cannot fit at all, so go compact. */
     @media(max-height:560px) and (orientation:landscape){
       .pet-photo{height:132px}
-      .pet-bio,.traits{display:none}
+      .pet-bio{display:none}
     }
 
     :focus-visible{outline:3px solid var(--plum);outline-offset:2px}
@@ -245,7 +276,6 @@
           <p class="meta" id="pet-meta"></p>
           <p class="pet-bio" id="pet-bio"></p>
           <div class="facts" id="pet-facts"></div>
-          <div class="traits" id="pet-traits"></div>
           <div class="chemistry">
             <div class="chemistry-ring" id="chemistry-ring"><span id="pet-score"></span></div>
             <div class="chemistry-copy"><b>Great pet chemistry</b><small id="pet-chemistry"></small></div>
@@ -399,6 +429,23 @@
     </form>
   </div>
 
+  <div class="match-modal" id="chat-modal" role="dialog" aria-modal="true" aria-labelledby="chat-name" hidden>
+    <div class="chat-sheet">
+      <div class="chat-head">
+        <div class="avatar photo-avatar chat-avatar" id="chat-avatar" role="img" aria-label="Pet photo"></div>
+        <div class="grow"><h2 id="chat-name"></h2><p class="small" id="chat-sub"></p></div>
+        <button class="modal-close" id="close-chat" data-close-modal type="button" aria-label="Close chat">×</button>
+      </div>
+      <div class="chat-log" id="chat-log" role="log" aria-live="polite" aria-label="Conversation"></div>
+      <p class="chat-warning">Prototype only — these messages are not delivered to anyone.</p>
+      <form class="chat-compose" id="chat-form">
+        <label class="sr-only" for="chat-input">Message</label>
+        <input class="field" id="chat-input" autocomplete="off" placeholder="Write a message…">
+        <button class="chat-send" type="submit" aria-label="Send message">➤</button>
+      </form>
+    </div>
+  </div>
+
   <div class="match-modal" id="match-modal" role="dialog" aria-modal="true" aria-labelledby="match-title" hidden>
     <div class="match-dialog">
       <div class="match-dogs"><div class="profile-avatar" id="matched-dog"></div><div class="profile-avatar"></div></div>
@@ -444,61 +491,51 @@
         area: 'Zamalek', distance: '1.2 km', weight: '19 kg', size: 'Medium', energy: 'Playful',
         vaccinated: true, neutered: true, goodWith: ['Dogs', 'Kids'],
         bio: 'Rescued from a building site in 2023 and now the unofficial mayor of the Zamalek corniche.',
-        traits: ['Park explorer', 'Gentle', 'Rescue star'],
         score: 88, chemistry: 'Same play style · calm greetings · park walks' },
       { slug: 'coco-poodle', name: 'Coco', species: 'dog', age: 2, breed: 'Toy Poodle', sex: 'Female',
         area: 'New Cairo', distance: '4.1 km', weight: '5 kg', size: 'Small', energy: 'Playful',
         vaccinated: true, neutered: true, goodWith: ['Dogs', 'Cats', 'Kids'],
         bio: 'Tiny, opinionated, and convinced every other dog is a personal friend she has not met yet.',
-        traits: ['Morning pup', 'Cuddly', 'Small pack'],
         score: 94, chemistry: 'Same energy · social style · morning routine' },
       { slug: 'bruno-shepherd', name: 'Bruno', species: 'dog', age: 5, breed: 'German Shepherd', sex: 'Male',
         area: 'Maadi', distance: '2.8 km', weight: '34 kg', size: 'Large', energy: 'Calm',
         vaccinated: true, neutered: true, goodWith: ['Dogs'],
         bio: 'Retired search-and-rescue trainee who now takes his duties by the Nile very seriously.',
-        traits: ['River walker', 'Calm', 'Well trained'],
         score: 86, chemistry: 'Calm temperament · long walks · trained' },
       { slug: 'bruno-shepherd-b', name: 'Rex', species: 'dog', age: 3, breed: 'Belgian Malinois', sex: 'Male',
         area: 'Sheikh Zayed', distance: '11.4 km', weight: '28 kg', size: 'Large', energy: 'High energy',
         vaccinated: true, neutered: false, goodWith: ['Dogs'],
         bio: 'Needs a job to do or he will invent one. Best matched with a pet who can keep up.',
-        traits: ['Agility fan', 'Focused', 'Needs a job'],
         score: 71, chemistry: 'High drive · long sessions · structured play' },
       { slug: 'simba-baladi-b', name: 'Malek', species: 'dog', age: 6, breed: 'Egyptian Baladi', sex: 'Male',
         area: 'Dokki', distance: '3.6 km', weight: '21 kg', size: 'Medium', energy: 'Calm',
         vaccinated: true, neutered: true, goodWith: ['Dogs', 'Cats', 'Kids'],
         bio: 'Older gentleman who has made peace with the world and would like a quiet walking companion.',
-        traits: ['Senior friendly', 'Patient', 'Street smart'],
         score: 79, chemistry: 'Gentle pace · short walks · quiet parks' },
       { slug: 'luna-golden-retriever-b', name: 'Nala', species: 'dog', age: 2, breed: 'Golden Retriever', sex: 'Female',
         area: 'Maadi', distance: '0.9 km', weight: '25 kg', size: 'Large', energy: 'Playful',
         vaccinated: true, neutered: true, goodWith: ['Dogs', 'Kids'],
         bio: 'Will retrieve anything you throw and several things you did not. Swims at every opportunity.',
-        traits: ['Water lover', 'Fetch fanatic', 'Sociable'],
         score: 91, chemistry: 'Same breed energy · water play · fetch' },
       { slug: 'coco-poodle-b', name: 'Pepper', species: 'dog', age: 4, breed: 'Maltipoo', sex: 'Female',
         area: 'Heliopolis', distance: '7.2 km', weight: '6 kg', size: 'Small', energy: 'Calm',
         vaccinated: true, neutered: true, goodWith: ['Cats', 'Kids'],
         bio: 'Prefers a sunny balcony and a slow sniff around the block to any kind of chaos.',
-        traits: ['Lap dog', 'Balcony sunbather', 'Quiet'],
         score: 68, chemistry: 'Low key · short outings · calm company' },
       { slug: 'bondo-mix-puppy-adoption-b', name: 'Ziko', species: 'dog', age: 1, breed: 'Baladi mix', sex: 'Male',
         area: 'Giza', distance: '9.8 km', weight: '14 kg', size: 'Medium', energy: 'High energy',
         vaccinated: true, neutered: false, goodWith: ['Dogs', 'Kids'],
         bio: 'Still growing into his ears. Every walk is the best walk that has ever happened.',
-        traits: ['Puppy energy', 'Learning fast', 'Friendly'],
         score: 83, chemistry: 'Playful bursts · training buddy · social' },
       { slug: 'mishmish-baladi-adoption-b', name: 'Layla', species: 'dog', age: 3, breed: 'Egyptian Baladi', sex: 'Female',
         area: 'Zamalek', distance: '1.6 km', weight: '17 kg', size: 'Medium', energy: 'Playful',
         vaccinated: true, neutered: true, goodWith: ['Dogs', 'Cats'],
         bio: 'Shy for about four minutes, then decides you are family and never revisits the question.',
-        traits: ['Warms up fast', 'Soft mouth', 'Cat friendly'],
         score: 87, chemistry: 'Similar greeting style · gentle play · shared parks' },
       { slug: 'zuzu-tuxedo-cat-adoption-b', name: 'Basbousa', species: 'cat', age: 3, breed: 'Domestic Shorthair', sex: 'Female',
         area: 'Garden City', distance: '2.1 km', weight: '4 kg', size: 'Small', energy: 'Calm',
         vaccinated: true, neutered: true, goodWith: ['Cats'],
         bio: 'Looking for a confident cat friend for supervised window-watching and synchronised napping.',
-        traits: ['Indoor only', 'Window watcher', 'Slow to trust'],
         score: 64, chemistry: 'Careful introductions · calm homes · indoor play' }
     ];
 
@@ -539,15 +576,42 @@
 
     const conversations = [
       { slug: 'simba-baladi', pet: 'Simba', owner: 'Omar', relation: 'dad',
-        preview: 'Would Luna enjoy a Friday walk in Zamalek?', when: 'New', unread: true },
+        preview: 'Would Luna enjoy a Friday walk in Zamalek?', when: 'New', unread: true ,
+        autoReply: "Perfect — see you both by the fountain at 5.",
+        thread: [
+          { from: 'them', text: "Hi Hana! Simba really enjoyed meeting Luna at the park last week.", at: 'Fri 09:12' },
+          { from: 'me', text: "He was so gentle with her! She came home and slept for four hours.", at: 'Fri 09:20' },
+          { from: 'them', text: "Would Luna enjoy a Friday walk in Zamalek?", at: 'Fri 09:24' }
+        ] },
       { slug: 'luna-golden-retriever-b', pet: 'Nala', owner: 'Farida', relation: 'mum',
-        preview: 'Nala found a shallow spot at the club if Luna wants to swim.', when: 'New', unread: true },
+        preview: 'Nala found a shallow spot at the club if Luna wants to swim.', when: 'New', unread: true ,
+        autoReply: "Great, I will bring towels for both of them.",
+        thread: [
+          { from: 'them', text: "Nala found a shallow spot at the club if Luna wants to swim.", at: 'Thu 18:02' },
+          { from: 'me', text: "She would love that. Is it busy on weekday mornings?", at: 'Thu 18:40' }
+        ] },
       { slug: 'coco-poodle', pet: 'Coco', owner: 'Nour', relation: 'mum',
-        preview: 'Their morning routines sound so similar!', when: 'Tue', unread: false },
+        preview: 'Their morning routines sound so similar!', when: 'Tue', unread: false ,
+        autoReply: "Let us try Tuesday then, before it gets hot.",
+        thread: [
+          { from: 'them', text: "Their morning routines sound so similar!", at: 'Tue 07:15' },
+          { from: 'me', text: "Luna is up at six every day without fail 😅", at: 'Tue 07:31' },
+          { from: 'them', text: "Coco too. Maybe an early walk suits them both?", at: 'Tue 07:33' }
+        ] },
       { slug: 'mishmish-baladi-adoption-b', pet: 'Layla', owner: 'Karim', relation: 'dad',
-        preview: 'Layla is shy at first — maybe a quiet street for the first meeting?', when: 'Mon', unread: false },
+        preview: 'Layla is shy at first — maybe a quiet street for the first meeting?', when: 'Mon', unread: false ,
+        autoReply: "Thank you — that is really thoughtful of you.",
+        thread: [
+          { from: 'them', text: "Layla is shy at first — maybe a quiet street for the first meeting?", at: 'Mon 14:05' },
+          { from: 'me', text: "Of course. We can meet on our side street, it is very calm.", at: 'Mon 14:22' }
+        ] },
       { slug: 'bruno-shepherd', pet: 'Bruno', owner: 'Youssef', relation: 'dad',
-        preview: 'Bruno walks the corniche at 7am most days if you want to join.', when: 'Sun', unread: false }
+        preview: 'Bruno walks the corniche at 7am most days if you want to join.', when: 'Sun', unread: false ,
+        autoReply: "See you on the corniche then. Bruno will be thrilled.",
+        thread: [
+          { from: 'them', text: "Bruno walks the corniche at 7am most days if you want to join.", at: 'Sun 20:11' },
+          { from: 'me', text: "We are usually out around then too. Which end do you start from?", at: 'Sun 20:30' }
+        ] }
     ];
 
     const healthRecord = [
@@ -582,7 +646,20 @@
     const $ = id => document.getElementById(id);
     const photo = slug => `assets/${slug}.webp`;          // 860w — cards and covers
     const thumb = slug => `assets/${slug}-thumb.webp`;    // 240w — avatars and list rows
-    const bg = (el, url) => { el.style.backgroundImage = `url('${url}')`; };
+    /* Face focal points, read off a contact sheet of every card photo. These are
+       full-body portraits with the head in the top ~15-25% of the frame, so the
+       old `center 38%` cropped below the heads entirely. Keyed by source photo
+       family, since the -b / -c variants share their framing. */
+    const FOCUS = { bondo: 2, bruno: 2, coco: 12, luna: 0, mishmish: 3, simba: 6, zuzu: 6 };
+    const focusY = slug => {
+      for (const k in FOCUS) if (slug.startsWith(k)) return FOCUS[k];
+      return 8;
+    };
+
+    const bg = (el, url, slug) => {
+      el.style.backgroundImage = `url('${url}')`;
+      if (slug) el.style.backgroundPosition = `center ${focusY(slug)}%`;
+    };
     const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
     const findAdoptable = name => adoptables.find(a => a.name === name);
 
@@ -684,7 +761,7 @@
 
     function renderPet() {
       const p = currentPet();
-      bg($('pet-photo'), photo(p.slug));
+      bg($('pet-photo'), photo(p.slug), p.slug);
       $('pet-distance').textContent = '📍 ' + p.distance;
       $('pet-area').textContent = p.area;
       $('pet-name').textContent = `${p.name}, ${p.age}`;
@@ -697,7 +774,6 @@
         ['♥', 'Good with ' + p.goodWith.join(', ').toLowerCase()]
       ].map(([icon, label]) =>
         `<span class="fact"><i aria-hidden="true">${icon}</i>${esc(label)}</span>`).join('');
-      $('pet-traits').innerHTML = p.traits.map(t => `<span class="trait">${esc(t)}</span>`).join('');
       $('pet-score').textContent = p.score + '%';
       $('chemistry-ring').style.background = `conic-gradient(var(--pink) 0 ${p.score}%,#f3e5ed ${p.score}%)`;
       $('pet-chemistry').textContent = p.chemistry;
@@ -705,10 +781,13 @@
       card.setAttribute('aria-label', `${p.name}, ${p.breed} ${p.species}, ${p.age} years old`);
     }
 
+    let currentMatchPet = null;
+
     function showMatch(p) {
+      currentMatchPet = p.name;
       $('match-blurb').textContent =
         `${p.name} and ${MY_PET.name} both have the same social rhythm. Their owners can now chat and choose a safe first meeting.`;
-      bg($('matched-dog'), thumb(p.slug));
+      bg($('matched-dog'), thumb(p.slug), p.slug);
       openModal(matchModal, '#message-owner');
     }
 
@@ -770,26 +849,103 @@
 
     function renderMatches() {
       $('match-strip').innerHTML = profiles.map(p =>
-        `<div class="match"><div class="avatar photo-avatar" role="img" aria-label="${esc(p.name)}" style="background-image:url('${thumb(p.slug)}')"></div>${esc(p.name)}</div>`
+        `<div class="match"><div class="avatar photo-avatar" role="img" aria-label="${esc(p.name)}" style="background-image:url('${thumb(p.slug)}');background-position:center ${focusY(p.slug)}%"></div>${esc(p.name)}</div>`
       ).join('');
 
-      $('message-list').innerHTML = conversations.map(c => `
-        <article class="message-card">
-          <div class="avatar photo-avatar" role="img" aria-label="${esc(c.pet)}" style="background-image:url('${thumb(c.slug)}')"></div>
+      $('message-list').innerHTML = conversations.map((c, i) => `
+        <button class="message-card" type="button" data-chat="${i}">
+          <div class="avatar photo-avatar" role="img" aria-label="${esc(c.pet)}" style="background-image:url('${thumb(c.slug)}');background-position:center ${focusY(c.slug)}%"></div>
           <div class="grow">
             <div class="row"><h3>${esc(c.owner)} · ${esc(c.pet)}’s ${esc(c.relation)}</h3>
             <span class="${c.unread ? 'badge' : 'small'}">${esc(c.when)}</span></div>
             <p class="small">${esc(c.preview)}</p>
           </div>
-        </article>`).join('');
+        </button>`).join('');
+
+      $('message-list').querySelectorAll('[data-chat]').forEach(btn =>
+        btn.addEventListener('click', () => openChat(Number(btn.dataset.chat))));
+    }
+
+    /* --- Demo chat ----------------------------------------------------------
+       Opening a message row shows the thread. Replies are appended locally and
+       vanish on reload; nothing is sent anywhere. */
+    let activeChat = null;
+
+    /* Patch one conversation row in place. Re-rendering the whole list would
+       replace the very button the user clicked, which loses the modal's
+       focus-return target and drops the row out of the tab order. */
+    function updateConversationRow(index) {
+      const c = conversations[index];
+      const row = $('message-list').querySelector(`[data-chat="${index}"]`);
+      if (!row) return;
+      row.querySelector('p.small').textContent = c.preview;
+      const stamp = row.querySelector('.row > span');
+      if (stamp) {
+        stamp.textContent = c.when;
+        stamp.className = c.unread ? 'badge' : 'small';
+      }
+    }
+
+    function renderThread() {
+      const c = conversations[activeChat];
+      $('chat-log').innerHTML = c.thread.map(m => `
+        <div class="bubble-row ${m.from === 'me' ? 'mine' : 'theirs'}">
+          <div class="bubble">${esc(m.text)}<span class="bubble-time">${esc(m.at)}</span></div>
+        </div>`).join('');
+      const log = $('chat-log');
+      log.scrollTop = log.scrollHeight;
+    }
+
+    function openChat(index) {
+      activeChat = index;
+      const c = conversations[index];
+      c.unread = false;
+      c.when = 'now';
+      updateConversationRow(index);
+      $('chat-name').textContent = `${c.owner} · ${c.pet}’s ${c.relation}`;
+      $('chat-sub').textContent = `${c.pet} and ${MY_PET.name} matched`;
+      bg($('chat-avatar'), thumb(c.slug), c.slug);
+      renderThread();
+      openModal($('chat-modal'), '#chat-input');
+      return { chat: c.pet, messages: c.thread.length };
+    }
+
+    function sendChatMessage(text) {
+      const body = String(text || '').trim();
+      if (!body || activeChat === null) return null;
+      const c = conversations[activeChat];
+      c.thread.push({ from: 'me', text: body, at: 'now' });
+      c.preview = body;
+      c.when = 'now';
+      renderThread();
+      updateConversationRow(activeChat);
+      notify('Demo message sent');
+      // A canned reply so the thread feels alive. Demo only.
+      setTimeout(() => {
+        if (activeChat === null) return;
+        c.thread.push({ from: 'them', text: c.autoReply, at: 'now' });
+        c.preview = c.autoReply;
+        renderThread();
+        updateConversationRow(activeChat);
+      }, 1400);
+      return { sent: body, chat: c.pet, status: 'demo-only' };
     }
 
     /* "Keep browsing" carries [data-close-modal], so the generic handler closes it. */
     $('message-owner').addEventListener('click', () => {
       closeModal(matchModal);
       openSection('matches');
-      notify('Demo chat opened');
+      // Open the thread for this pet if one exists, otherwise just show the list.
+      const i = conversations.findIndex(c => c.pet === currentMatchPet);
+      if (i >= 0) openChat(i); else notify('Demo chat opened');
     });
+
+    $('chat-form').addEventListener('submit', event => {
+      event.preventDefault();
+      const input = $('chat-input');
+      if (sendChatMessage(input.value)) input.value = '';
+    });
+    $('close-chat').addEventListener('click', () => { activeChat = null; });
 
     /* --- Care ---------------------------------------------------------------- */
 
@@ -865,7 +1021,7 @@
 
       $('adoption-list').innerHTML = adoptables.map(a => `
         <article class="adopt-card" data-adoption-type="${esc(a.species)}">
-          <div class="adopt-photo" role="img" aria-label="${esc(a.name)}, ${esc(a.breed)}" style="background-image:url('${thumb(a.slug)}')"></div>
+          <div class="adopt-photo" role="img" aria-label="${esc(a.name)}, ${esc(a.breed)}" style="background-image:url('${thumb(a.slug)}');background-position:center ${focusY(a.slug)}%"></div>
           <div class="adopt-copy">
             <div class="adopt-head-row"><h3>${esc(a.name)}, ${esc(a.ageLabel)}</h3><span class="in-care">${esc(a.inCare)}</span></div>
             <p class="adopt-meta">${esc(a.breed)} · ${esc(a.sex)}<br>${esc(a.carer)}</p>
@@ -905,7 +1061,7 @@
       $('selected-adoption-name').textContent = animal.name;
       $('adoption-blurb').textContent =
         `We’ll introduce ${OWNER.name} to ${animal.carer} so they can discuss the home, routine and next steps.`;
-      bg($('adoption-pet-photo'), thumb(animal.slug));
+      bg($('adoption-pet-photo'), thumb(animal.slug), animal.slug);
       const send = $('send-adoption-enquiry');
       const already = enquired.has(animal.name);
       send.disabled = already;
